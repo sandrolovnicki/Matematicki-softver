@@ -1,13 +1,13 @@
-# Matematički softver
+# Matematički Softver
 
-This is a repository for homeworks and projects for Mathematical Software, a course at
+This is a repository of homeworks and projects for Mathematical Software, a course at
 
 University of Zagreb, Faculty of Science, Department of Mathematics (Graduate Programme: Computer Science and Mathematics)
 
 ---
 ## How to run Jupyter Notebooks?
 Jupyter Notebooks use Python3.6, are shown in your web-browser at localhost and can be run with Anaconda. You'll need to set those up on your machine.
-The following steps will lead you in installing anaconda3, setting up python virtual environment and running notebooks.
+The following steps will lead you in installing anaconda3, setting up python virtual environment and running notebooks.  
 **NOTE:** Python3.6 is also required and steps bellow will not cover its setup.
 
 #### Installing Anaconda3
@@ -34,7 +34,7 @@ export PATH=<your-path-to-anaconda3>/bin:$PATH
 ```
 source activate py36env
 ```
-- And lastly run our jupyter notebook:
+- And lastly run our jupyter notebook:  
 _**NOTE:** In case you already are in the directory where your notebooks are (or just don't care), you don't need to pass the --notebook-dir parameter. Also, port value is arbitrary._
 ```
 jupyter notebook --notebook-dir=<your-path-to-notebooks> --port=12345
